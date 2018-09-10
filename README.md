@@ -1,12 +1,8 @@
 # django-switchtemplatedir
 Django middleware - symply switch template dir
 <h2>Setup</h2>
-'''
+```bash
     git pull https://github.com/haykhman/django-switchtemplatedir.git
-'''
-```python3
-print('hello')
-
 ```
 
 <h2>In settings.py</h2>
