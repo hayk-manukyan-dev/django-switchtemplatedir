@@ -1,7 +1,9 @@
 # django-switchtemplatedir
 Django middleware - symply switch template dir
 <h2>Setup</h2>
-<p>'''bash git pull https://github.com/haykhman/django-switchtemplatedir.git'''</p>
+<p>'''
+ git pull https://github.com/haykhman/django-switchtemplatedir.git
+ '''</p>
 
 <h2>In settings.py</h2>
 <p>Add 'APP_DIR.TemplateDirManager.TemplateDirMiddleware'</p>
