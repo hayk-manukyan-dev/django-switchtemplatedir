@@ -4,6 +4,9 @@ Django middleware - symply switch template dir
 '''
     git pull https://github.com/haykhman/django-switchtemplatedir.git
 '''
+```
+code block1
+```
 
 <h2>In settings.py</h2>
 <p>Add 'APP_DIR.TemplateDirManager.TemplateDirMiddleware'</p>
