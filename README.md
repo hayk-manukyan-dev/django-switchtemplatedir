@@ -1,6 +1,6 @@
 # django-switchtemplatedir
 Django middleware - symply switch template dir
-<h2>Setup<h2>
+<h2>Setup</h2>
 <p>git pull https://github.com/haykhman/django-switchtemplatedir.git</p>
 
 <h2>In settings.py</h2>
@@ -11,4 +11,4 @@ Django middleware - symply switch template dir
 <p>Example - TEMPLATE_DIR_SETTINGS = {'default':[''], 'd' : ['desktop/'], 'm':['mobile/', '.html']}</p>
 
 <h3>Usage</h3>
-<h2></h3>
+<p></p>
