@@ -4,8 +4,9 @@ Django middleware - symply switch template dir
 '''
     git pull https://github.com/haykhman/django-switchtemplatedir.git
 '''
-```
-code block1
+```python3
+print('hello')
+
 ```
 
 <h2>In settings.py</h2>
