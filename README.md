@@ -5,6 +5,11 @@ Django middleware - symply switch template dir
     git pull https://github.com/haykhman/django-switchtemplatedir.git
 ```
 
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
 <h2>In settings.py</h2>
 <p>Add 'APP_DIR.TemplateDirManager.TemplateDirMiddleware'</p>
 <p>Add TEMPLATE_DIR_METHOD string 'switch' or 'subdomain'.</p>
