@@ -1,9 +1,8 @@
 # django-switchtemplatedir
 Django middleware - symply switch template dir
-<h3>Setup<h3>
+<h2>Setup<h2>
 <p>git pull https://github.com/haykhman/django-switchtemplatedir.git</p>
 
-<h3>Setting</h3>
 <h2>In settings.py</h2>
 <p>Add 'APP_DIR.TemplateDirManager.TemplateDirMiddleware'</p>
 <p>Add TEMPLATE_DIR_METHOD string 'switch' or 'subdomain'.</p>
