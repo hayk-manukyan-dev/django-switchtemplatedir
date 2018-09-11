@@ -2,7 +2,7 @@
 Django middleware - symply switch template dir
 <h2>Setup</h2>
 
-```python
+```sh
     git pull https://github.com/haykhman/django-switchtemplatedir.git
 ```
 
