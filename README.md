@@ -18,5 +18,6 @@ Django middleware - symply switch template dir
     TEMPLATE_DIR_SETTINGS = {'default' : [''], 'd' :  ['desktop/'], 'm' : ['mobile/', '.html']}
 ```
 
+<p>In this example key 'defoult' reach to root folder, 'd' reach to ROOT/desktop folder, 'm' reach to ROOT/mobile and change predetermined in template_name file format to html</p>
 <h3>Usage</h3>
 <p></p>
