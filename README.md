@@ -12,8 +12,10 @@ Django middleware - symply switch template dir
 <p>Add TEMPLATE_DIR_SETTINGS dictionary as defoult key named 'default' with value dict with first value string</p>
 <p>If need change file format then set value-dict second fild '.format'</p>
 <p>Example</p>
+
 ```python
-    TEMPLATE_DIR_SETTINGS = {'default':[''], 'd' : ['desktop/'], 'm':['mobile/', '.html']}
+TEMPLATE_DIR_SETTINGS = {"default" : [""], "d" :  ["desktop/"], 'm' : ["mobile/", ".html"]}
 ```
+
 <h3>Usage</h3>
 <p></p>
