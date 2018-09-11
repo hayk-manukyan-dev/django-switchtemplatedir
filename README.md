@@ -18,6 +18,20 @@ Django middleware - symply switch template dir
     TEMPLATE_DIR_SETTINGS = {'default' : [''], 'd' :  ['desktop/'], 'm' : ['mobile/', '.html']}
 ```
 
-<p>In this example key 'defoult' reach to root folder, 'd' reach to ROOT/desktop folder, 'm' reach to ROOT/mobile and change predetermined in template_name file format to html</p>
+<p>In this example we use switch method.</p>
+<p>Key 'defoult' reach to root folder, 'd' reach to ROOT/desktop folder, 'm' reach to ROOT/mobile and change predetermined in template_name file format to html</p>
+
 <h3>Usage</h3>
-<p></p>
+<h4>switch</h4>
+<p>Recomended to use SwitchTemplateDir method. Import this method from APP_DIR.switcher</p>
+<p>In urls add '.../<str:key>' path and switch with key name of TEMPLATE_DIR_SETTINGS</p>
+<p>Example</p>    
+    
+```python
+    urls.py
+    from APP_DIR.switcher import SwitchTemplateDir
+    urlpatterns += [ path('somedir/<str:key>', SwitchTemplateDir.as_view()), ]
+```
+
+<p>example url for example settings is /somedir/d for switch to 'desktop/' folder</p>
+<p>Or use switchTemplateDir function from TemplateDirManager and give argument one of TEMPLATE_DIR_SETTINGS keys</p>
