@@ -14,7 +14,8 @@ Django middleware - symply switch template dir
 <p>Example</p>
 
 ```python
-TEMPLATE_DIR_SETTINGS = {"default" : [""], "d" :  ["desktop/"], 'm' : ["mobile/", ".html"]}
+    TEMPLATE_DIR_METHOD = 'switch'
+    TEMPLATE_DIR_SETTINGS = {'default' : [''], 'd' :  ['desktop/'], 'm' : ['mobile/', '.html']}
 ```
 
 <h3>Usage</h3>
