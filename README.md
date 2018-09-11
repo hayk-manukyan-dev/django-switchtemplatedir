@@ -15,3 +15,4 @@ Django middleware - symply switch template dir
 
 <h3>Usage</h3>
 <p></p>
+ignore test
