@@ -24,7 +24,13 @@ Django middleware - symply switch template dir
 <h3>Usage</h3>
 <h4>switch</h4>
 <p>Recomended to use SwitchTemplateDir method. Import this method from APP_DIR.switcher</p>
-<p>In urls add '.../`<str:key>`' path and switch with key name of TEMPLATE_DIR_SETTINGS</p>
+<p>In urls add
+
+```python 
+'.../<str:key>' 
+```
+
+path and switch with key name of TEMPLATE_DIR_SETTINGS</p>
 <p>Example</p>    
     
 ```python
