@@ -46,4 +46,4 @@ path and switch with key name of TEMPLATE_DIR_SETTINGS</p>
 
 <p><b>Tested on Django 2.0</b></p>
 
-<a href="" target="_blank"><b>MIT License</b></a>
+<a href="https://github.com/haykhman/django-switchtemplatedir/blob/master/LICENSE" target="_blank"><b>MIT License</b></a>
