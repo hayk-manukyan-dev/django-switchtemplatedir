@@ -42,6 +42,8 @@ path and switch with key name of TEMPLATE_DIR_SETTINGS</p>
 <p>example url for example settings is /somedir/d for switch to 'desktop/' folder</p>
 <p>Or use switchTemplateDir function from TemplateDirManager and give argument one of TEMPLATE_DIR_SETTINGS keys</p>
 
+<hr>
+
 <p><b>Tested on Django 2.0</b></p>
 
 <a href="" target="_blank"><b>MIT License</b></a>
