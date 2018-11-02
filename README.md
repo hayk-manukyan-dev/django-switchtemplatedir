@@ -19,8 +19,8 @@ or
 
 ```python
     MIDDLEWARE = [
-    ...,
-    'APP_DIR.TemplateDirManager.TemplateDirMiddleware'
+        ...,
+        'APP_DIR.TemplateDirManager.TemplateDirMiddleware'
     ]
     TEMPLATE_DIR_METHOD = 'switch'
     TEMPLATE_DIR_SETTINGS = {'default' : [''], 'd' :  ['desktop/'], 'm' : ['mobile/', '.html']}
