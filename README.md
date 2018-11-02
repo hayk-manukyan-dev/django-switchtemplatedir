@@ -3,6 +3,10 @@ Django middleware - symply switch template dir
 <h2>Setup</h2>
 
 ```sh
+    pip install django-switchtemplatedir
+```
+or
+```sh
     git pull https://github.com/haykhman/django-switchtemplatedir.git
 ```
 
